@@ -1,0 +1,98 @@
+﻿
+/* this label isused for displaying error message */
+.red-label
+{
+font-size: 12px;
+color: red;
+font-weight: 800;
+font-style: italic;
+padding:15px;
+}
+
+/* ComboBox DropDown styles */
+.ddlchklst
+{
+height:20px;
+border:solid 1px #999;		
+background:url(/inc/selectbox-arrow.gif) no-repeat right 50%;
+cursor:pointer;
+color:#6d6e71;
+position:relative;
+}
+/* disabled */
+.ddlchklst_dis
+{
+height:20px;
+border:solid 1px #999;
+background-color:#ccc;
+color:#888;
+}
+.ddlchklst_dis ul
+{
+display:none;
+}
+/* hidden drop-down */
+.ddlchklst_hid
+{
+height:20px;
+border:solid 1px #999;		
+background:url(/inc/selectbox-arrow.gif) no-repeat right 50%;
+cursor:pointer;
+color:#6d6e71;
+}
+.ddlchklst_hid ul
+{
+display:none;
+}
+/* the Not Available cbdd doesn't have span */
+.ddlchklst_na
+{
+border:solid 1px #bbb;	
+color:#bbb;
+height:20px;
+}
+
+/* sub element styles */
+.ddlchklst_span
+{
+overflow:hidden;
+display:block;
+padding: 3px 0 0 5px;
+height:17px;
+}
+/* .ddlchklst_span applies to all cbdd titles, .ddlchklst span is only the open one */
+.ddlchklst span
+{
+position:absolute; 
+}
+
+.ddlchklst ul
+{
+margin:0;
+padding:0;
+position:absolute;
+border:1px solid #c6c7d2;
+border-top-color:#83868d;
+height:expression( this.scrollheight > 299 ? "300px" : "auto" );
+max-height: 300px;
+width: 99%;
+overflow:auto;
+background:#ffffff;
+cursor:default;
+top:20px;
+z-index:20;
+}
+
+.ddlchklst li
+{
+list-style: none;
+}
+.ddlchklst li:hover
+{
+background-color: #def;
+color: #000;
+}
+.ddlchklst .sel
+{
+background-color: #c8def4;
+}
