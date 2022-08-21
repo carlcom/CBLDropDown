@@ -1,3 +1,3 @@
 # CBLDropDown
-JQuery and JSON updaing cascading multi selectable drop downs
+JQuery and JSON updating cascading multi selectable drop downs
 Stripped down from working code
